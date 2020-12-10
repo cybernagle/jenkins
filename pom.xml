@@ -701,7 +701,7 @@ THE SOFTWARE.
         be either compiled by javac from 8 or one from a newer compiler that
         correctly handle the release flag. This will replace both source and target
         once we drop support for JDK 8 that only recognize source and target. -->
-        <maven.compiler.release>${java.level}</maven.compiler.release>
+        <!-- maven.compiler.release>${java.level}</maven.compiler.release -->
       </properties>
       <activation>
         <jdk>11</jdk>
